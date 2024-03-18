@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "click_app"
+version = "0.1.0"
+description = "A sample Click application"
+authors = ["Jason Chuang <chuangtcee@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.1.1"
+
+[tool.poetry.scripts]
+click_app = "click_template_app.cli:main"
