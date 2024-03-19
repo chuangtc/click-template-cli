@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setup(
     name='click_app',
-    version='0.1.3',
+    version='0.1.4',
     author='Jason Chuang',
     author_email='chuangtcee@gmail.com',
     description='A template of Click application CLI',
