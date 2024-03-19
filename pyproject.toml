@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [tool.poetry]
 name = "click_app"
-version = "0.1.2"
+version = "0.1.3"
 description = "A sample Click application"
 authors = ["Jason Chuang <chuangtcee@gmail.com>"]
 license = "MIT"
